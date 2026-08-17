@@ -3,269 +3,241 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gian Theo - Front-End Developer</title>
+  <title>Gian Theo — Front-End Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- HEADER -->
   <header>
-    <div class="logo">gian theo</div>
-
+    <a href="#top" class="logo">gian theo</a>
     <nav>
       <a href="#about">About</a>
+      <a href="#achievements">Achievements</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
-
   </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="container hero-inner">
 
-    <div class="hero-image"></div>
-
-    
-
-    <div class="hero-content">
-      <div class="hero-name">
-        <h3>Hey, I'm <span class="hero-name-highlight">Gian  </span></h3>
-      </div>
-      <div class="hero-title">
-        <h1 class="hero-title-line1">FRONT-END</h1>
-        <h1 class="hero-title-line2">DEVELOPER</h1>
+      <div class="hero-media">
+        <div class="hero-image" role="img" aria-label="Portrait of Gian Theo Chiong"></div>
       </div>
 
-      <p class="hero-description">
-        I design and develop responsive websites with a focus on usability, performance, and modern design. I continue to expand my skills through academic projects and hands-on learning.
-      </p>
-
-      <div class="hero-buttons">
-        <button class="btn btn-primary">Get in touch →</button>
-        <button class="btn btn-secondary">More About Me</button>
+      <div class="hero-content">
+        <p class="eyebrow">/* hi, i'm gian */</p>
+        <h1 class="hero-title">
+          <span class="hero-title-line1">Front-End</span>
+          <span class="hero-title-line2">Developer</span>
+        </h1>
+        <p class="hero-description">
+          I design and build responsive, detail-focused websites — currently sharpening that craft as a BSIT student at the University of the Immaculate Conception.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="#projects" class="btn btn-text">View my work →</a>
+        </div>
       </div>
-      
+
     </div>
   </section>
 
-  <!-- ABOUT ME SECTION -->
-
+  <!-- ABOUT -->
   <section class="about" id="about">
-    <div class="section-container">
+    <div class="container">
+      <p class="eyebrow">/* about */</p>
+      <h2 class="section-title">About Me</h2>
 
-      <div class="section-titles">
-      <h2 class="section-title1">MORE</h2>
-      <h2 class="section-title2">ABOUT ME</h2>
-      </div>
-      
-      <div class="about-content">
+      <div class="about-grid">
 
-        <!-- About Card -->
-        <div class="about-card">
+        <div class="about-main">
           <p class="about-bio">
             I am Gian Theo M. Chiong, a second year Bachelor of Science in Information Technology student at the University of the Immaculate Conception. I have a strong interest in web development and web design, where I enjoy creating responsive, user-friendly, and visually appealing websites. I continue to improve my technical and creative skills through academic projects and personal learning, with the goal of building digital solutions that provide a great user experience.
           </p>
 
-          <div class="info-group">
+          <ul class="meta-list">
+            <li>
+              <span class="meta-label">Email</span>
+              <span class="meta-value">giantheo0319@gmail.com</span>
+            </li>
+            <li>
+              <span class="meta-label">GitHub</span>
+              <a class="meta-value" href="https://github.com/chongmoral/chongmoral.github.io" target="_blank" rel="noopener">chongmoral</a>
+            </li>
+            <li>
+              <span class="meta-label">Studying</span>
+              <span class="meta-value">BS Information Technology</span>
+            </li>
+          </ul>
 
-            <div class="info-item">
-              <!-- <div class="info-icon">📧</div> -->
-              <div class="info-content">
-                <h3>Email</h3>
-                <p>giantheo0319@gmail.com</p>
-              </div>
-            </div>
-
-            <div class="info-item">
-              <!-- <div class="info-icon">📍</div> -->
-              <div class="info-content">
-                <h3>GitHub</h3>
-                <a href='https://github.com/chongmoral/chongmoral.github.io' target='_blank'>chongmoral</a>
-              </div>
-            </div>
-
-            <div class="info-item">
-              <!-- <div class="info-icon">🎓</div> -->
-              <div class="info-content">
-                <h3>Education</h3>
-                <p>B. Science in Information Technology</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="skills-section">
-
-            <p class="skills-title">SKILLS</p>
-
-            <div class="skills-grid">
-              <div class="skill-row">
-                <span class="skill-badge">Web Development</span>
-                <span class="skill-badge">HTML</span>
-                <span class="skill-badge">UI Design</span>
-              </div>
-              <div class="skill-row">
-                <span class="skill-badge">Web Design</span>
-                <span class="skill-badge">CSS</span>
-                <span class="skill-badge">Selena Mid</span>
-              </div>
-              <div class="skill-row">
-                <span class="skill-badge">Responsive Design</span>
-                <span class="skill-badge">Figma</span>
-              </div>
+          <div class="skills">
+            <p class="meta-label">Skills</p>
+            <div class="skill-list">
+              <span>Web Development</span>
+              <span>Web Design</span>
+              <span>Responsive Design</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>UI Design</span>
+              <span>Figma</span>
             </div>
           </div>
         </div>
 
-        <!-- Education Section -->
-        <div class="education-section">
-          <h3 class="education-title">EDUCATION</h3>
-
-          <div class="education-cards">
-            <div class="education-card">
-              <div class="education-card-content">
-                <h4>B. Science in Information Technology</h4>
-                <p class="school">University of the Immaculate Conception</p>
-                <p class="year">Aug 2025 - Present</p>
-              </div>
-            </div>
-
-            <div class="education-card">
-              <div class="education-card-content">
-                <h4>High School Graduate</h4>
-                <p class="school">Mapua Malayan Colleges Mindanao</p>
-                <p class="year">July 2023 - June 2025</p>
-              </div>
-            </div>
-
-          
-              <div class="sgbit">
-              <div class="education-card-content">
-                <h4>Secondary Schooling</h4>
-                <p class="school">Sovereign Grace Baptist Institute and Technology of Davao</p>
-                <p class="year">Aug 2022 - Present</p>
-              </div>
-            </div>
-    
-          </div>
+        <div class="about-timeline">
+          <h3 class="timeline-title">Education</h3>
+          <ol class="timeline">
+            <li>
+              <p class="timeline-degree">B.S. Information Technology</p>
+              <p class="timeline-school">University of the Immaculate Conception</p>
+              <p class="timeline-year">Aug 2025 — Present</p>
+            </li>
+            <li>
+              <p class="timeline-degree">High School Graduate</p>
+              <p class="timeline-school">Mapua Malayan Colleges Mindanao</p>
+              <p class="timeline-year">Jul 2023 — Jun 2025</p>
+            </li>
+            <li>
+              <p class="timeline-degree">Secondary Schooling</p>
+              <p class="timeline-school">Sovereign Grace Baptist Institute and Technology of Davao</p>
+              <p class="timeline-year">Aug 2022 — Present</p>
+            </li>
+          </ol>
         </div>
+
       </div>
     </div>
   </section>
 
-  
-  <!-- ACTIVITIES SECTION -->
-<section class="activities" id="activities"> 
-  <div class="activities-container">
+  <!-- ACHIEVEMENTS -->
+  <section class="achievements" id="achievements">
+    <div class="container">
+      <p class="eyebrow">/* achievements */</p>
+      <h2 class="section-title">Achievements</h2>
 
-    <div class="activities-title">
-    <h1>ACHIEVEMENTS</h1>
+      <ul class="achievement-list">
+        <li class="achievement-row">
+          <span class="achievement-tag">HTML Activity 1.1</span>
+          <div class="achievement-info">
+            <h3>Fashion Blog</h3>
+            <p>HTML5 • Semantic Web</p>
+          </div>
+          <a href="https://chongmoral.github.io/Activity1_Chiong/index.html" class="achievement-link" target="_blank" rel="noopener">View →</a>
+        </li>
+
+        <li class="achievement-row">
+          <span class="achievement-tag">HTML Activity 1.2</span>
+          <div class="achievement-info">
+            <h3>Wine Festival Schedule</h3>
+            <p>HTML5 • Structured Layout</p>
+          </div>
+          <a href="https://chongmoral.github.io/Activity1.2_Chiong/winefestival.html" class="achievement-link" target="_blank" rel="noopener">View →</a>
+        </li>
+
+        <li class="achievement-row">
+          <span class="achievement-tag">HTML Activity 2.1</span>
+          <div class="achievement-info">
+            <h3>Davie's Burger</h3>
+            <p>CSS3 • Layout &amp; Styling</p>
+          </div>
+          <a href="https://chongmoral.github.io/DaviesBurger/index.html" class="achievement-link" target="_blank" rel="noopener">View →</a>
+        </li>
+      </ul>
     </div>
+  </section>
 
-  <div class= "activities-stack">
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <p class="eyebrow">/* projects */</p>
+      <h2 class="section-title">Recent Projects</h2>
 
-    <div class= "activities-cards"> 
+      <div class="project-grid">
 
-      <div class="left-tag">HTML Activity 1.1</div>
+        <a class="project-card" target="_blank" href="https://www.figma.com/design/dxBMMHz6kv1VHpKNmecXih/Ferrari-Recreation?node-id=0-1&t=I5UClX5xeyPafHCI-1">
+          <div class="project-thumb">
+            <img src="images/image4.png" alt="Ferrari Recreation UI design preview">
+          </div>
+          <div class="project-meta">
+            <h3>Ferrari Recreation</h3>
+            <p>UI Design • Figma</p>
+          </div>
+        </a>
 
-      <div class="middle-tag">
-        <h3 class="middle-tag-title">Fashion Blog</h3>
-        <p class= "middle-tag-body">HTML5 • Semantic Web</p>
+        <a class="project-card" target="_blank" href="https://www.figma.com/design/JLCtDQDfWXVH4MCA2kmfHu/GlowHarvest?t=FC8xliK8fLHAgOTk-1" target="_blank" rel="noopener">
+          <div class="project-thumb">
+            <img src="images/image.png" alt="GlowHarvest UI design preview">
+          </div>
+          <div class="project-meta">
+            <h3>GlowHarvest</h3>
+            <p>UI Design • Figma</p>
+          </div>
+        </a>
+
+        <a class="project-card" target="_blank" href="https://www.figma.com/design/cYqzztACYCd9Gp6fuKOpku/deskcom?t=FC8xliK8fLHAgOTk-1" target="_blank" rel="noopener">
+          <div class="project-thumb">
+            <img src="images/image3.png" alt="Deskcom UI design preview">
+          </div>
+          <div class="project-meta">
+            <h3>Deskcom</h3>
+            <p>UI Design • Figma</p>
+          </div>
+        </a>
+
+        
+        
+
+        <!-- Placeholder — swap in your next project -->
+        <a class="project-card" target="_blank" href="https://www.figma.com/proto/MpMsDClAuonpUjf9t92vcy/BrewCraft?node-id=0-1&t=SDEzL1JlRRcbeXEY-1">
+          <div class="project-thumb">
+            <img src="images/image5.png" alt="BrewCraft Coffee UI design preview">
+          </div>
+          <div class="project-meta">
+            <h3>BrewCraft Coffee</h3>
+            <p>UI Design • Figma</p>
+          </div>
+        </a>
+
       </div>
-
-      <a href='https://chongmoral.github.io/Activity1_Chiong/index.html' class="cardbtn" target="_blank">VIEW PROJECT</a>
-      </div>
-
     </div>
+  </section>
 
-     <div class= "activities-cards"> 
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container container--narrow">
+      <p class="eyebrow">/* contact */</p>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="contact-copy">Have a project in mind or just want to say hi? My inbox is always open.</p>
 
-      <div class="left-tag">HTML Activity 1.2</div>
-
-      <div class="middle-tag">
-        <h3 class="middle-tag-title">Wine Festival Schedule</h3>
-        <p class= "middle-tag-body">HTML5 • Structured Layout</p>
+      <div class="contact-rows">
+        <a class="contact-row" href="mailto:giantheo0319@gmail.com">
+          <span class="meta-label">Email</span>
+          <span class="meta-value">giantheo0319@gmail.com</span>
+        </a>
+        <a class="contact-row" href="https://github.com/chongmoral" target="_blank" rel="noopener">
+          <span class="meta-label">GitHub</span>
+          <span class="meta-value">chongmoral</span>
+        </a>
       </div>
 
-      <a href='https://chongmoral.github.io/Activity1.2_Chiong/winefestival.html' class="cardbtn" target="_blank" >VIEW PROJECT</a>
-      </div>
-
-     <div class= "activities-cards"> 
-
-      <div class="left-tag">HTML Activity 2.1</div>
-
-      <div class="middle-tag">
-        <h3 class="middle-tag-title">Davie's Burger</h3>
-        <p class= "middle-tag-body">CSS3 • Layout & Styling</p>
-      </div>
-
-      <a href='https://chongmoral.github.io/DaviesBurger/index.html'  class="cardbtn" target= "_blank" >VIEW PROJECT</a>
-      </div>
-
-  </div>
-</section>
-  
-  <!-- Activities SECTION -->
-
-  <!-- PROJECTS SECTION -->
-  <!-- PROJECTS SECTION -->
-<section class="projects" id="projects">
-  <div class="projects-container">
-    <div class="projects-title">
-      <h1 class="projects-title-line1">RECENT</h1>
-      <h1 class="projects-title-line2">PROJECTS</h1>
+      <a href="mailto:giantheo0319@gmail.com" class="btn btn-primary">Send a message</a>
     </div>
+  </section>
 
-    <div class="projects-grid">
-
-      <!-- PROJECT CARD 1 -->
-      <a href='https://www.figma.com/design/JLCtDQDfWXVH4MCA2kmfHu/GlowHarvest?t=FC8xliK8fLHAgOTk-1' target='_blank' class="project-card">
-        <div class="project-card-image">
-          <img src="images/image.png" alt="GlowHarvest Project">
-        </div>
-        <div class="project-card-info">
-          <h4 class="project-card-title">GlowHarvest</h4>
-          <p class="project-card-desc">UI Design • Figma</p>
-        </div>
-      </a>
-
-      <!-- PROJECT CARD 2 -->
-      <a href='https://www.figma.com/design/cYqzztACYCd9Gp6fuKOpku/deskcom?t=FC8xliK8fLHAgOTk-1' target='_blank' class="project-card">
-        <div class="project-card-image">
-          <img src="images/image3.png" alt="Deskcom Project">
-        </div>
-        <div class="project-card-info">
-          <h4 class="project-card-title">Project Title</h4>
-          <p class="project-card-desc">Description here</p>
-        </div>
-      </a>
-
-      <!-- PROJECT CARD 3 -->
-      <a href='#' target='_blank' class="project-card">
-        <div class="project-card-image"></div>
-        <div class="project-card-info">
-          <h4 class="project-card-title">Project Title</h4>
-          <p class="project-card-desc">Description here</p>
-        </div>
-      </a>
-
-      <!-- PROJECT CARD 4 -->
-      <a href='#' target='_blank' class="project-card">
-        <div class="project-card-image"></div>
-        <div class="project-card-info">
-          <h4 class="project-card-title">Project Title</h4>
-          <p class="project-card-desc">Description here</p>
-        </div>
-      </a>
-
-    </div>
-  </div>
-</section>
-
-
+  <!-- FOOTER -->
   <footer>
-    <div class="footer-content">
-      <p class="copyright">Copyright © 2024 Gian Theo M. Chiong. All rights reserved. </p>
-      </div>
+    <div class="container footer-row">
+      <p class="copyright">© 2026 Gian Theo M. Chiong</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
   </footer>
 
 </body>
