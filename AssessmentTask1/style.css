@@ -217,7 +217,7 @@ nav a:hover {
 .hero-media {
   order: 2;
   width: 100%;
-  max-width: 380px;
+  max-width: 420px;
 }
 
 .hero-image {
@@ -228,8 +228,8 @@ nav a:hover {
   background-size: 110%;
   background-position: top;
   background-repeat: no-repeat;
-  background-color: #161616;
-  border: 1px solid var(--line);
+  /*background-color: #161616;*/
+  /*border: 1px solid var(--line);*/
 }
 
 .hero-content {
